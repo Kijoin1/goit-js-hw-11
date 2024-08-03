@@ -9,11 +9,8 @@ const button = document.querySelector('[data-start]')
 
 checkButton()
 
-
 document.addEventListener('input', checkButton)
 document.addEventListener('submit', searchImg)
-
-
 
 // function
 
