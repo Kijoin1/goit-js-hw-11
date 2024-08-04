@@ -32,7 +32,7 @@ loading()
 
 // сеттаймаут для перевірки загрузки
 
-return setTimeout (()=>{ searchImgByValue(value)
+return searchImgByValue(value)
 .then((data)=> {
     if (data.hits.length === 0) {
         throw new Error('No images found');
@@ -48,4 +48,4 @@ return setTimeout (()=>{ searchImgByValue(value)
     imageWidth: 60,
     position: 'topRight'
 })}).finally(removeLoading())
-}, 1000)}
+}
