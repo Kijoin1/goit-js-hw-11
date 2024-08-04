@@ -30,8 +30,6 @@ let value = input.value
 
 loading()
 
-// сеттаймаут для перевірки загрузки
-
 return searchImgByValue(value)
 .then((data)=> {
     if (data.hits.length === 0) {
