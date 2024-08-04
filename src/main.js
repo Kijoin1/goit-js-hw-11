@@ -44,7 +44,7 @@ return setTimeout (()=>{ searchImgByValue(value)
     return iziToast.show({
     message: 'Sorry, there are no images matching your search query. Please try again!',
     color: 'red',
-    image: './img/cat_error.jpg',
+    image: '/src/img/cat_error.jpg',
     imageWidth: 60,
     position: 'topRight'
 })}).finally(removeLoading())
